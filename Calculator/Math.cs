@@ -6,10 +6,22 @@ namespace Calc
 {
     public class Math
     {
-        public double Add(double a, double b) => a + b;
-        public double Subtract(double a, double b) => a - b;
-        public double Multipy(double a, double b) => a * b;
-        public double Divide(double a, double b) => a / b;
+        public double Add(double a, double b)
+        {
+            return a + b;
+        }
+        public double Subtract(double a, double b)
+        {
+            return a - b;
+        }
+        public double Multipy(double a, double b)
+        {
+            return a * b;
+        }
+        public double Divide(double a, double b)
+        {
+            return a / b;
+        }
 
         public long Factorial(int n)
         {
@@ -18,9 +30,18 @@ namespace Calc
             return result;
         }
 
-        public double Mod(double a, double b) => a % b;
-        public double Percent(double num, double prc) => (num * prc) / 100;
-        public double DPercent(double first, double last) => last / first * 100;
+        public double Mod(double a, double b)
+        {
+            return a % b;
+        }
+        public double Percent(double num, double prc)
+        {
+            return (num * prc) / 100;
+        }
+        public double DPercent(double first, double last)
+        {
+            return last / first * 100;
+        }
 
 
      
