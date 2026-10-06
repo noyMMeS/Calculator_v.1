@@ -12,10 +12,10 @@ namespace Calc
         public double Multipy(double a, double b) => a * b;
         public double Divide(double a, double b) => a / b;
 
-        public long Factorial(int n)
+        public long Factorial(int fac)
         {
             long result = 1;
-            for (int i = 1; i <= n; i++) result *= i;
+            for (int i = 1; i <= fac; i++) result *= i;
             return result;
         }
 

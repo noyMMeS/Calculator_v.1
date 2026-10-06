@@ -29,19 +29,6 @@ namespace Calculator
             foreach (var x in array) if (x < min) min = x;
             return min;// hi cimon with mohamed
         }
-
-        public double[] SortAsc(double[] array)
-        {
-            Array.Sort(array);
-            return array;
-        }
-
-        public double[] SortDesc(double[] array)
-        {
-            Array.Sort(array);
-            Array.Reverse(array);
-            return array;
-        }
         #endregion
     }
 
