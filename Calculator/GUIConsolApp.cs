@@ -27,7 +27,7 @@ namespace Calculator
         {
             double min = array[0];
             foreach (var x in array) if (x < min) min = x;
-            return min;
+            return min;// hi cimon with mohamed
         }
 
         public double[] SortAsc(double[] array)
