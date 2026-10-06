@@ -27,6 +27,7 @@ namespace Calc
                 {
                     break;
                 }
+                    #region MathEnter
 
                 switch (choice)
                 {
@@ -98,6 +99,8 @@ namespace Calc
                         double end = Convert.ToDouble(Console.ReadLine());
                         Console.WriteLine("Изменение: " + clsmath.DPercent(start, end) + "%");
                         break;
+                #endregion
+                    #region ArrayEnter
 
                     case "arr":
                         List<double> list = new List<double>();
@@ -127,6 +130,7 @@ namespace Calc
                             Console.WriteLine("Массив пуст.");
                         }
                         break;
+                    
 
                     case "sum":
                     case "count":
@@ -174,6 +178,7 @@ namespace Calc
                     default:
                         Console.WriteLine("Ошибка. Попробуйте еще раз.");
                         break;
+                    #endregion
                 }
             }
         }

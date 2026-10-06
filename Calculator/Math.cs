@@ -6,6 +6,7 @@ namespace Calc
 {
     public class Math
     {
+        #region MathMethods
         public double Add(double a, double b) => a + b;
         public double Subtract(double a, double b) => a - b;
         public double Multipy(double a, double b) => a * b;
@@ -21,8 +22,7 @@ namespace Calc
         public double Mod(double a, double b) => a % b;
         public double Percent(double num, double prc) => (num * prc) / 100;
         public double DPercent(double first, double last) => last / first * 100;
+        #endregion
 
-
-     
-    } 
+    }
 }

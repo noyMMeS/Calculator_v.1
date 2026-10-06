@@ -6,6 +6,7 @@ namespace Calculator
 {
     public class GUIConsolApp
     {
+        #region ArrayMethods
         public double Sum(double[] array)
         {
             double s = 0;
@@ -41,6 +42,7 @@ namespace Calculator
             Array.Reverse(array);
             return array;
         }
+        #endregion
     }
 
 }
